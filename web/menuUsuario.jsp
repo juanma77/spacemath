@@ -41,7 +41,31 @@
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-         
+         <script>
+            function code(e) {
+                e = e || window.event;
+                return(e.keyCode);
+            }
+            window.onload = function(){
+                document.onkeypress = function(e){
+                    var key = code(e);
+                    // do something with key
+                    //alert(key);
+                    if (key === 115 || key === 83) { // Si es una S
+                        window.location.href = "sumas1.jsp";
+                    }
+                    if (key === 114 || key === 82) { // Si es una R
+                        window.location.href = "restas1.jsp";
+                    }
+                    if (key === 109 || key === 77) { // Si es una M
+                        window.location.href = "mu1tiplicacion1.jsp";
+                    }
+                    if (key === 100 || key === 68) { // Si es una D
+                        window.location.href = "division1.jsp";
+                    }
+                };
+            };
+        </script>
           
         <style>
             
