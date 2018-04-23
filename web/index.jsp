@@ -19,7 +19,7 @@
             document.onkeypress = function(e){
                 var key = code(e);
                 // do something with key
-                alert(key);
+                //alert(key);
                 if (key === 106) { // Si es una J (jugar)
                     window.location.href = "checklogin.jsp";
                 }
