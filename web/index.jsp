@@ -110,39 +110,43 @@
       
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: black" id="cuerpoUno" >
-<div class="container">
-<nav class="navbar navbar-inverse navbar-fixed-top" >
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <!-- <span class="navbar-brand">MegaCómputo</span> -->
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li class="active"  style="margin-left: 460px;" ><a href="index.jsp">Inicio</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Jugar<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="ingresar.jsp">Iniciar sesión</a></li>
-                        </ul>
-                </li>   
-                <li><a href="insertUser.jsp">Crear una cuenta</a></li>
-                <li><a href="ayuda.jsp">Ayuda</a></li>
-                <li><a href="acercade.jsp">Acerca de</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Otros<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="ingresar.jsp">Soy Administrador</a></li>
-                            <li class="divider"></li>
-                            <li><a href="mandarCorreo.jsp">Contacto</a></li>     
-                        </ul>
-                </li> 
-            </ul>
-        </div>
-    </div>
-</nav>
+        <div class="container">
+                <nav class="navbar navbar-inverse navbar-fixed-top" >
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <!-- <span class="navbar-brand">MegaCómputo</span> -->
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"  style="margin-left: 460px;" >
+                                    <a href="index.jsp"> <img src="images/iconos/home.png" width="40"> Inicio</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">  <img src="images/iconos/play.png" width="40"> Jugar<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="ingresar.jsp">  <img src="images/iconos/login.png" width="40"> Iniciar sesión</a></li>
+                                        </ul>
+                                </li>   
+                                <li><a href="insertUser.jsp">  <img src="images/iconos/register.png" width="40"> Crear cuenta </a></li>
+                                <li><a href="ayuda.jsp">  <img src="images/iconos/help.png" width="40"> Ayuda</a></li>
+                                <li><a href="acercade.jsp">  <img src="images/iconos/about.png" width="40"> Acerca de</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">  <img src="images/iconos/others.png" width="40"> Otros<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="ingresar.jsp">  <img src="images/iconos/admin.png" width="40"> Soy Administrador</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="mandarCorreo.jsp">  <img src="images/iconos/contact.png" width="40"> Contacto</a></li>     
+                                        </ul>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
     
-</div>
+        </div>
+
     <br><br><br>
+    
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
